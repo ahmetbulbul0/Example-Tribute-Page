@@ -43,6 +43,13 @@ main#main figure#img-div {
     padding: 0 40px;
 }
 
+main#main figure#img-div .box-image {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 main#main figure#img-div img#image {
     height: auto;
     width: 100%;
@@ -102,7 +109,7 @@ main#main blockquote {
     background-color: #12161b;
 }
 
-h4#tribute-link {
+h4.tribute-link {
     margin-top: 40px;
 }
 
